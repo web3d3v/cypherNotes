@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4207A42A76CAE400F2DC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207A32A76CAE400F2DC2B /* AppDelegate.swift */; };
+		1F4207A62A76CAE400F2DC2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207A52A76CAE400F2DC2B /* SceneDelegate.swift */; };
+		1F4207AB2A76CAE400F2DC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4207A92A76CAE400F2DC2B /* Main.storyboard */; };
+		1F4207AE2A76CAE400F2DC2B /* CypherNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207AC2A76CAE400F2DC2B /* CypherNotes.xcdatamodeld */; };
+		1F4207B02A76CAE500F2DC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4207AF2A76CAE500F2DC2B /* Assets.xcassets */; };
+		1F4207B32A76CAE500F2DC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4207B12A76CAE500F2DC2B /* LaunchScreen.storyboard */; };
+		1F4207BE2A76CAE500F2DC2B /* CypherNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207BD2A76CAE500F2DC2B /* CypherNotesTests.swift */; };
+		1F4207C82A76CAE500F2DC2B /* CypherNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207C72A76CAE500F2DC2B /* CypherNotesUITests.swift */; };
+		1F4207CA2A76CAE500F2DC2B /* CypherNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207C92A76CAE500F2DC2B /* CypherNotesUITestsLaunchTests.swift */; };
+		1F4207D72A76CC0500F2DC2B /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207D62A76CC0500F2DC2B /* PasswordViewController.swift */; };
+		1F4207D92A76CC0E00F2DC2B /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207D82A76CC0E00F2DC2B /* NotesViewController.swift */; };
+		1F4207DB2A76CC1700F2DC2B /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207DA2A76CC1700F2DC2B /* NoteViewController.swift */; };
+		1F4207DE2A76CC5600F2DC2B /* NotesServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4207DD2A76CC5600F2DC2B /* NotesServices.swift */; };
+		1FBE47D42A814A51006DF754 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 1FBE47D32A814A51006DF754 /* RNCryptor */; };
+		1FEF7D062A80274E009AF199 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF7D042A80274E009AF199 /* Note+CoreDataClass.swift */; };
+		1FEF7D072A80274E009AF199 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF7D052A80274E009AF199 /* Note+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4207BA2A76CAE500F2DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4207982A76CAE400F2DC2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F42079F2A76CAE400F2DC2B;
+			remoteInfo = CypherNotes;
+		};
+		1F4207C42A76CAE500F2DC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4207982A76CAE400F2DC2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F42079F2A76CAE400F2DC2B;
+			remoteInfo = CypherNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4207A02A76CAE400F2DC2B /* CypherNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4207A32A76CAE400F2DC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4207A52A76CAE400F2DC2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F4207AA2A76CAE400F2DC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4207AD2A76CAE400F2DC2B /* CypherNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CypherNotes.xcdatamodel; sourceTree = "<group>"; };
+		1F4207AF2A76CAE500F2DC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4207B22A76CAE500F2DC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4207B42A76CAE500F2DC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4207B92A76CAE500F2DC2B /* CypherNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypherNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4207BD2A76CAE500F2DC2B /* CypherNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherNotesTests.swift; sourceTree = "<group>"; };
+		1F4207C32A76CAE500F2DC2B /* CypherNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypherNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4207C72A76CAE500F2DC2B /* CypherNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherNotesUITests.swift; sourceTree = "<group>"; };
+		1F4207C92A76CAE500F2DC2B /* CypherNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F4207D62A76CC0500F2DC2B /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		1F4207D82A76CC0E00F2DC2B /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		1F4207DA2A76CC1700F2DC2B /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		1F4207DD2A76CC5600F2DC2B /* NotesServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesServices.swift; sourceTree = "<group>"; };
+		1FEF7D042A80274E009AF199 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1FEF7D052A80274E009AF199 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F42079D2A76CAE400F2DC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBE47D42A814A51006DF754 /* RNCryptor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207B62A76CAE500F2DC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207C02A76CAE500F2DC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4207972A76CAE400F2DC2B = {
+			isa = PBXGroup;
+			children = (
+				1F4207A22A76CAE400F2DC2B /* CypherNotes */,
+				1F4207BC2A76CAE500F2DC2B /* CypherNotesTests */,
+				1F4207C62A76CAE500F2DC2B /* CypherNotesUITests */,
+				1F4207A12A76CAE400F2DC2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4207A12A76CAE400F2DC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4207A02A76CAE400F2DC2B /* CypherNotes.app */,
+				1F4207B92A76CAE500F2DC2B /* CypherNotesTests.xctest */,
+				1F4207C32A76CAE500F2DC2B /* CypherNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4207A22A76CAE400F2DC2B /* CypherNotes */ = {
+			isa = PBXGroup;
+			children = (
+				1F4207A32A76CAE400F2DC2B /* AppDelegate.swift */,
+				1F4207A52A76CAE400F2DC2B /* SceneDelegate.swift */,
+				1F4207DC2A76CC2500F2DC2B /* Views */,
+				1F4207A92A76CAE400F2DC2B /* Main.storyboard */,
+				1F4207DF2A76CC5D00F2DC2B /* Services */,
+				1F4207AF2A76CAE500F2DC2B /* Assets.xcassets */,
+				1F4207B12A76CAE500F2DC2B /* LaunchScreen.storyboard */,
+				1F4207B42A76CAE500F2DC2B /* Info.plist */,
+				1F4207AC2A76CAE400F2DC2B /* CypherNotes.xcdatamodeld */,
+			);
+			path = CypherNotes;
+			sourceTree = "<group>";
+		};
+		1F4207BC2A76CAE500F2DC2B /* CypherNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4207BD2A76CAE500F2DC2B /* CypherNotesTests.swift */,
+			);
+			path = CypherNotesTests;
+			sourceTree = "<group>";
+		};
+		1F4207C62A76CAE500F2DC2B /* CypherNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4207C72A76CAE500F2DC2B /* CypherNotesUITests.swift */,
+				1F4207C92A76CAE500F2DC2B /* CypherNotesUITestsLaunchTests.swift */,
+			);
+			path = CypherNotesUITests;
+			sourceTree = "<group>";
+		};
+		1F4207DC2A76CC2500F2DC2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F4207D62A76CC0500F2DC2B /* PasswordViewController.swift */,
+				1F4207D82A76CC0E00F2DC2B /* NotesViewController.swift */,
+				1F4207DA2A76CC1700F2DC2B /* NoteViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F4207DF2A76CC5D00F2DC2B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF7D042A80274E009AF199 /* Note+CoreDataClass.swift */,
+				1FEF7D052A80274E009AF199 /* Note+CoreDataProperties.swift */,
+				1F4207DD2A76CC5600F2DC2B /* NotesServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F42079F2A76CAE400F2DC2B /* CypherNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4207CD2A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotes" */;
+			buildPhases = (
+				1F42079C2A76CAE400F2DC2B /* Sources */,
+				1F42079D2A76CAE400F2DC2B /* Frameworks */,
+				1F42079E2A76CAE400F2DC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CypherNotes;
+			packageProductDependencies = (
+				1FBE47D32A814A51006DF754 /* RNCryptor */,
+			);
+			productName = CypherNotes;
+			productReference = 1F4207A02A76CAE400F2DC2B /* CypherNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4207B82A76CAE500F2DC2B /* CypherNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4207D02A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotesTests" */;
+			buildPhases = (
+				1F4207B52A76CAE500F2DC2B /* Sources */,
+				1F4207B62A76CAE500F2DC2B /* Frameworks */,
+				1F4207B72A76CAE500F2DC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4207BB2A76CAE500F2DC2B /* PBXTargetDependency */,
+			);
+			name = CypherNotesTests;
+			productName = CypherNotesTests;
+			productReference = 1F4207B92A76CAE500F2DC2B /* CypherNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F4207C22A76CAE500F2DC2B /* CypherNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4207D32A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotesUITests" */;
+			buildPhases = (
+				1F4207BF2A76CAE500F2DC2B /* Sources */,
+				1F4207C02A76CAE500F2DC2B /* Frameworks */,
+				1F4207C12A76CAE500F2DC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4207C52A76CAE500F2DC2B /* PBXTargetDependency */,
+			);
+			name = CypherNotesUITests;
+			productName = CypherNotesUITests;
+			productReference = 1F4207C32A76CAE500F2DC2B /* CypherNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4207982A76CAE400F2DC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1F42079F2A76CAE400F2DC2B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1F4207B82A76CAE500F2DC2B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1F42079F2A76CAE400F2DC2B;
+					};
+					1F4207C22A76CAE500F2DC2B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1F42079F2A76CAE400F2DC2B;
+					};
+				};
+			};
+			buildConfigurationList = 1F42079B2A76CAE400F2DC2B /* Build configuration list for PBXProject "CypherNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4207972A76CAE400F2DC2B;
+			packageReferences = (
+				1FBE47D22A814A51006DF754 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+			);
+			productRefGroup = 1F4207A12A76CAE400F2DC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F42079F2A76CAE400F2DC2B /* CypherNotes */,
+				1F4207B82A76CAE500F2DC2B /* CypherNotesTests */,
+				1F4207C22A76CAE500F2DC2B /* CypherNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F42079E2A76CAE400F2DC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4207B32A76CAE500F2DC2B /* LaunchScreen.storyboard in Resources */,
+				1F4207B02A76CAE500F2DC2B /* Assets.xcassets in Resources */,
+				1F4207AB2A76CAE400F2DC2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207B72A76CAE500F2DC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207C12A76CAE500F2DC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F42079C2A76CAE400F2DC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4207AE2A76CAE400F2DC2B /* CypherNotes.xcdatamodeld in Sources */,
+				1F4207D72A76CC0500F2DC2B /* PasswordViewController.swift in Sources */,
+				1F4207D92A76CC0E00F2DC2B /* NotesViewController.swift in Sources */,
+				1F4207DB2A76CC1700F2DC2B /* NoteViewController.swift in Sources */,
+				1F4207A42A76CAE400F2DC2B /* AppDelegate.swift in Sources */,
+				1FEF7D062A80274E009AF199 /* Note+CoreDataClass.swift in Sources */,
+				1F4207A62A76CAE400F2DC2B /* SceneDelegate.swift in Sources */,
+				1F4207DE2A76CC5600F2DC2B /* NotesServices.swift in Sources */,
+				1FEF7D072A80274E009AF199 /* Note+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207B52A76CAE500F2DC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4207BE2A76CAE500F2DC2B /* CypherNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4207BF2A76CAE500F2DC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4207C82A76CAE500F2DC2B /* CypherNotesUITests.swift in Sources */,
+				1F4207CA2A76CAE500F2DC2B /* CypherNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4207BB2A76CAE500F2DC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F42079F2A76CAE400F2DC2B /* CypherNotes */;
+			targetProxy = 1F4207BA2A76CAE500F2DC2B /* PBXContainerItemProxy */;
+		};
+		1F4207C52A76CAE500F2DC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F42079F2A76CAE400F2DC2B /* CypherNotes */;
+			targetProxy = 1F4207C42A76CAE500F2DC2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F4207A92A76CAE400F2DC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4207AA2A76CAE400F2DC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4207B12A76CAE500F2DC2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4207B22A76CAE500F2DC2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4207CB2A76CAE500F2DC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F4207CC2A76CAE500F2DC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4207CE2A76CAE500F2DC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K4DT22LXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CypherNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4207CF2A76CAE500F2DC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K4DT22LXR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CypherNotes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F4207D12A76CAE500F2DC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CypherNotes";
+			};
+			name = Debug;
+		};
+		1F4207D22A76CAE500F2DC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CypherNotes";
+			};
+			name = Release;
+		};
+		1F4207D42A76CAE500F2DC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypherNotes;
+			};
+			name = Debug;
+		};
+		1F4207D52A76CAE500F2DC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonsofcrypto.CypherNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypherNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F42079B2A76CAE400F2DC2B /* Build configuration list for PBXProject "CypherNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4207CB2A76CAE500F2DC2B /* Debug */,
+				1F4207CC2A76CAE500F2DC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4207CD2A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4207CE2A76CAE500F2DC2B /* Debug */,
+				1F4207CF2A76CAE500F2DC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4207D02A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4207D12A76CAE500F2DC2B /* Debug */,
+				1F4207D22A76CAE500F2DC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4207D32A76CAE500F2DC2B /* Build configuration list for PBXNativeTarget "CypherNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4207D42A76CAE500F2DC2B /* Debug */,
+				1F4207D52A76CAE500F2DC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FBE47D22A814A51006DF754 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FBE47D32A814A51006DF754 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FBE47D22A814A51006DF754 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1F4207AC2A76CAE400F2DC2B /* CypherNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F4207AD2A76CAE400F2DC2B /* CypherNotes.xcdatamodel */,
+			);
+			currentVersion = 1F4207AD2A76CAE400F2DC2B /* CypherNotes.xcdatamodel */;
+			path = CypherNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F4207982A76CAE400F2DC2B /* Project object */;
+}
